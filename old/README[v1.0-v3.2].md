@@ -2,9 +2,9 @@
 
 # 已知问题：socket通信时ui会卡死
 
-QQ群：575342858
+QQ群：[已解散]
 
-点击链接加入群聊【EasyChatOSC】：https://qm.qq.com/q/okhS7YlzJm
+点击链接加入群聊【EasyChatOSC】：[已解散]
 
 # 代码全由deepseek(AI)编写
 # Chinese
