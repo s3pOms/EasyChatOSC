@@ -59,10 +59,12 @@
       <td><img width="309" height="525" alt="image" src="https://github.com/user-attachments/assets/9eef7ccd-c7be-4d1a-8f57-31cf84e633a7" /></td>
     </tr>
   </table>
-* **自动捕获模型变动提示**：
+* **自动捕获解包中模型提示**：
   <img width="355" height="124" alt="image" src="https://github.com/user-attachments/assets/c9ba3395-abd8-4819-894e-bf34ed94bffd" />
+# 
 * **捕获好友模型变动[无图片演示]**：
 * 会自动复制avtr_XXXXXXXXXXX并加上前缀让他可以直接访问
+* 
 * **捕获过大模型[无图片演示]**：
 * 会自动复制avtr_XXXXXXXXXXX并加上前缀让他可以直接访问
 
