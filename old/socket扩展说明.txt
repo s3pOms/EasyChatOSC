@@ -1,0 +1,62 @@
+Socket功能使用说明
+1. 基本概念
+本地Socket：进程间通信(IPC)方式，允许同一台机器上的不同程序交换数据
+
+端口：本实现使用12345端口（可修改）
+
+协议：简单的TCP文本协议
+
+2. 如何连接
+其他Python程序可以通过以下代码连接到此应用：
+
+python
+import socket
+
+def connect_to_vrchat_tool():
+    try:
+        client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        client_socket.connect(('localhost', 12345))
+        print("成功连接到VRChat工具")
+        return client_socket
+    except Exception as e:
+        print(f"连接失败: {e}")
+        return None
+3. 消息格式
+在文本中使用 [scoket] 标记，程序会：
+
+检测到该标记时自动触发Socket通信
+
+将标记替换为从Socket获取的内容
+
+4. 扩展功能示例
+示例1：获取天气信息
+
+创建天气服务程序：
+
+python
+# weather_server.py
+import socket
+import requests
+
+def get_weather():
+    # 这里调用真实天气API
+    return "晴天 25℃"
+
+def start_server():
+    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    server.bind(('localhost', 12346))  # 使用不同端口
+    server.listen(1)
+    
+    while True:
+        client, addr = server.accept()
+        data = client.recv(1024).decode()
+        if "weather" in data:
+            client.sendall(get_weather().encode())
+        client.close()
+
+if __name__ == "__main__":
+    start_server()
+
+
+====================================
+Power by deepseek
