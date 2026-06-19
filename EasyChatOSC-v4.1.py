@@ -35,7 +35,7 @@ CONFIG = {
     "UPDATE_INTERVAL": 1.5,
     "MENU_X": 100,
     "MENU_Y": 100,
-    "CHAT_TEMPLATE": "ㅤ[rslist]\n[CPU%]\n[RAM%]\nGPU:[GPU%] Temp:[GPUTemp]",
+    "CHAT_TEMPLATE": "-[rslist]-\n[CPU%]\n[RAM%]\nGPU:[GPU%] Temp:[GPUTemp]",
     "MAX_APP_NUM": 3,
     "TITLE_LEN": 14,
     "PROC_LEN": 10,
