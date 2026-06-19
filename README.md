@@ -83,6 +83,6 @@
 
 如果你想自行修改源码或编译，请参考以下步骤：
 
-### 1. 安装依赖
+### 依赖
 ```bash
 pip install pyautogui psutil GPUtil pywin32 python-osc keyboard
