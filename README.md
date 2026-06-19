@@ -36,6 +36,7 @@
 
 * **系统状态悬浮窗**：实时监控硬件占用、温度，以及当前聚焦的活动窗口。
   <img width="478" height="327" alt="image" src="https://github.com/user-attachments/assets/654e0acb-2b25-4dde-93af-d7c47b6034c0" />
+# 
 * **迷你快捷聊天输入框**：
   <img width="703" height="122" alt="image" src="https://github.com/user-attachments/assets/8def6620-fb5c-4979-9af5-14879767b099" />
 
@@ -43,8 +44,10 @@
 
 * **系统服务激活提示**：
   <img width="412" height="183" alt="image" src="https://github.com/user-attachments/assets/cda5b2c8-619e-4431-a6a0-6e89add3e199" />
+# 
 * **测试通知效果**：
   <img width="375" height="119" alt="image" src="https://github.com/user-attachments/assets/921c1c89-e954-4245-bcb5-eec8820994b1" />
+# 
 * **玩家进入/离开房间实时气泡通知**：
   <table>
     <tr>
